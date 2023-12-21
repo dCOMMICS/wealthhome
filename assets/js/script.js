@@ -36,6 +36,8 @@ const kNearestNeighbors = (data, labels, point, k = 3) => {
         }
         return acc;
       },
+
+      
       {
         classCounts: {},
         topClass: kNearest[0].label,
